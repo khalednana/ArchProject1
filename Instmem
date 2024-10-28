@@ -20,6 +20,6 @@ module InstMem (
     end
 
     always @(*) begin
-        data_out = memory[addr]; // Fetch instruction based on PC address
+        data_out = memory[addr]; 
     end
 endmodule
